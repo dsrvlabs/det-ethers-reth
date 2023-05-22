@@ -28,3 +28,6 @@ data/
 proptest-regressions/
 Cargo.lock
 Cargo.lock
+
+mdbx.dat
+mdbx.lck

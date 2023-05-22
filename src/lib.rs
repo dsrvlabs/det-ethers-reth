@@ -20,6 +20,8 @@ use thiserror::Error;
 pub mod init;
 pub mod middleware;
 pub mod type_conversions;
+mod tests;
+
 use init::{init_client, init_eth_api, init_eth_filter, init_trace};
 
 pub type RethClient = BlockchainProvider<

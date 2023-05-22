@@ -21,6 +21,7 @@ reth-revm = { git = "https://github.com/paradigmxyz/reth", package = "reth-revm"
 reth-interfaces = { git = "https://github.com/paradigmxyz/reth", package = "reth-interfaces"}
 ethers = { version = "2.0.4", git = "https://github.com/gakonst/ethers-rs", default-features = false, features = ["ipc"] }
 ethers-providers = {version = "2.0.4", features = ["ipc"]}
+async-std = { version = "1", features = ["attributes", "tokio1"] }
 
 eyre = "0.6.8"
 tokio = "1.28.0"
